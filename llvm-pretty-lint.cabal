@@ -1,0 +1,17 @@
+Name:                llvm-pretty-lint
+Version:             0.1.0.0
+Synopsis:            A Lint for modules defined by the llvm-pretty package
+License:             BSD3
+License-file:        LICENSE
+Author:              Trevor Elliott
+Maintainer:          trevor@geekgateway.com
+Category:            Language
+Build-type:          Simple
+Cabal-version:       >=1.2
+
+
+Library
+        Exposed-Modules:        Text.LLVM.Lint
+        Build-depends:          base        >= 4.0.0.0 && < 5,
+                                monadLib    >= 3.6.1   && < 3.7,
+                                llvm-pretty >= 0.1.0.0 && <= 0.2
